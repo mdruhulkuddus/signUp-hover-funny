@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover SignUp</title>
+<!--    <link rel="stylesheet" href="css/bootstrap.css">-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main-content">
+        <h2>Sign Up</h2>
+        <div>
+            <form action="index.html" id="registerForm">
+                <label for="userName">User Name</label>
+                <input type="text" id="userName" placeholder="User Name">
+                <span id="userNameError" style="color: red;"></span>
+                <span id="emailError" style=""></span>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password">
+                <span id="passwordError" style="color: red;"></span>
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                <span id="ConfirmEmailError" style="color: red;"></span>
+                <span id="ConfirmEmail" style="color: green;"></span>
+                <button type="submit" class="submitBtn" id="submitBtn">Submit</button>
+                <button type="submit" class="successBtn" id="successBtn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+<!--    <script src="js/bootstrap.bundle.min.js"></script>-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
